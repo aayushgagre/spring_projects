@@ -1,0 +1,45 @@
+1. creating a maven project.
+   check the create a simple project.
+   Group id: com.cg
+   Artifact id: iocdemo1
+   Packaging: jar
+   name: iocdemo1
+   (this will create a new maven project)
+
+	Right click in pom.xml and maven and then add dependency  ----write the spring-context------then all the dependency will come only if they are present offline
+
+2. create a(package name iocdemo1) Address class which has a property line1, line2, city and get the getter setter for these and also create two constructor
+												  (Empty constructor and Parameterized Constructor)
+
+3. create a Employee class which has a property firstname,lastname,salary,designation, address 
+						private List<String> contacts;
+   create getter setter for all the property.
+
+4. create new xml file and name it spring.xml and paste the code from demo1project.
+    
+
+
+https://github.com/mahendra-shinde/spring5-july-19
+
+
+pom.xml----maven dependencies;
+src/main/java----place java source
+src/main/resources-----place for spring xml files
+
+
+
+byType: Data type of "address" field in Employee must match with Class
+	type of address bean
+	limitation: Excepts single bean
+
+byName: Property name of "address" in employee class must match with ID of 
+	address bean
+	limitation: Might thrown an Exception if classname didnt match!
+
+
+constructor :Use "constructor" isn't of setter.
+auto_detect 
+
+
+
+
