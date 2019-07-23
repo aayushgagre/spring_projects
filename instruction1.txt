@@ -1,0 +1,11 @@
+Every dependencies are searched un LOCAL repository first. In case dependency not
+found in local repository, maven would then connect to maven central
+repository(which need internet internet connection) and fetch all dependencies into
+local repository.
+
+
+--goto/src/main/resources right click and now Spring bean configuration file
+--Enter the file name "spring.xml"
+	choose: aop, context and beans
+
+https://github.com/mahendra-shinde/spring-mvc
